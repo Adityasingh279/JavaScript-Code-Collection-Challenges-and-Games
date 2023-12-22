@@ -168,6 +168,24 @@ console.log(x !== 35);   // false - same value, same type
 
 
 
+//Logical Operators: to perform logical operations on boolean values
+//(i) '||' (Logical OR):
+//=> It returns 'true' if at least one of the operands is 'true'
+//=> If both operands are 'false', it returns 'false'
+//ex: let result= false||true; //result is true
+
+//(ii) '&&' (Logical AND):
+//=> It returns 'true' only if both operands are 'true'
+//=> If any of the operands is 'false', it returns 'false'
+//ex: let result= true&&false; //return is false
+
+//(iii) '!' (Logical NOT): 
+//=> Returns the opposite of the operand's boolean value.
+// !true   // false
+// !false   // true
+
+
+
 // Example: Weather Condition Check
 
 // Prompt user for weather input

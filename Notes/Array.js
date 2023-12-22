@@ -26,3 +26,22 @@ console.log(groceries.indexOf('orange'));
 // length property: Returns the number of elements in a given array.
 console.log(groceries.length);
 
+// concat(): (concatenate) is used to concatenate arrays, creating a new array
+//    - The `concat` method is used to concatenate two or more arrays or values, creating a new array without modifying the original arrays.
+//    - It does not change the existing arrays; instead, it returns a new array that contains the elements of the original arrays.
+//    - Example:
+     const array1 = [1, 2, 3];
+     const array2 = [4, 5, 6];
+     const newArray = array1.concat(array2);
+     console.log(newArray); // [1, 2, 3, 4, 5, 6]
+     console.log(array1);   // [1, 2, 3] (unchanged)
+     console.log(array2);   // [4, 5, 6] (unchanged)
+
+//      join(): is used to concatenate the elements of an array into a string, using a specified delimiter.
+//    - The `join` method is used to create a string by concatenating all the elements of an array, separated by a specified delimiter.
+//    - It does not change the original array; it returns a string representing the array elements.
+//    - Example:
+     const array = ['apple', 'banana', 'orange'];
+     const resultString = array.join(', '); // Join with comma and space
+     console.log(resultString); // "apple, banana, orange"
+     console.log(array);        // ['apple', 'banana', 'orange'] (unchanged)
