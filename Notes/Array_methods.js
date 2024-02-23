@@ -78,7 +78,7 @@ console.log(actors.filter(function(actor) {
 //.Reduce() => reduce takes in a function as an argumnent.
 //=> reduce loops and gives you back the accumulator.
 const numbs=[1,2,3,4];
-const resultReduce = nums.reduce((a,b)=(a+b))
+const resultReduce = nums.reduce((a,b)=(a+b),0) //here 0 is the initial value of the accumulator
 //Or any functionality inside the reduce bracket
 console.log(resultReduce)
 
